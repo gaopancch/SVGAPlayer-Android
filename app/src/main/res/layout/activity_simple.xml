@@ -10,7 +10,18 @@
         android:layout_height="match_parent"
         android:layout_width="match_parent"
         android:scaleType="fitCenter"
-        app:source="rose_2.0.0.svga"
+        app:source="angel.svga"
         app:antiAlias="true"/>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="137dp"
+        android:layout_marginStart="137dp"
+        android:text="Button" />
 
 </RelativeLayout>

@@ -67,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void loadAnimation() {
         SVGAParser parser = new SVGAParser(this);
-        resetDownloader(parser);
+//        resetDownloader(parser);
         try {
             parser.parse(new URL("https://github.com/yyued/SVGA-Samples/blob/master/angel.svga?raw=true"), new SVGAParser.ParseCompletion() {
                 @Override
